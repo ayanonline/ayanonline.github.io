@@ -1,5 +1,5 @@
-let bar = document.querySelector(".bar-icon");
-let bar2 = document.querySelector("#bar2");
+let bar = document.querySelector("#bar");
+let bar2 = document.querySelector("#closeBar");
 let resNav = document.querySelector(".res-nav");
 let navBar = document.querySelector(".nav-bar");
 bar.addEventListener("click", () => {

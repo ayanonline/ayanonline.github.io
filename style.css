@@ -64,8 +64,11 @@ a {
 .nav-items li:hover {
   text-shadow: 0px 1px 2px rgb(74, 73, 73);
 }
-.bar-icon {
+#bar {
   display: none;
+  font-size: 40px;
+}
+#closeBar {
   font-size: 40px;
 }
 
@@ -180,7 +183,7 @@ a {
     margin: 0 0 0 -30px;
     justify-content: flex-start;
   }
-  .bar-icon {
+  #bar {
     display: block;
   }
   .nav-items li {

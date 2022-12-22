@@ -67,6 +67,7 @@ a {
 .bar-icon {
   display: none;
   cursor: pointer;
+  font-size: 40px;
 }
 
 /* title section */
@@ -191,7 +192,7 @@ a {
   .res-nav {
     position: absolute;
     width: 100%;
-    background-color: rgb(255, 98, 41);
+    background-color: rgb(255, 102, 60);
   }
   .res-nav ul {
     padding: 0;

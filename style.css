@@ -116,7 +116,7 @@ a:hover {
   border: none;
   border-radius: 50%;
   /* background-color: #fa4a4a; */
-  box-shadow: 1px 5px 5px 3px rgba(0, 0, 0, 0.2);
+  box-shadow: 1px 5px 5px 3px #ffc0af;
   transition: transform 0.4s;
 }
 .social-btn:hover {
@@ -148,7 +148,7 @@ a:hover {
   border: none;
   border-radius: 8px;
   margin: 20px 0;
-  box-shadow: 5px 5px 5px 3px rgba(0, 0, 0, 0.2);
+  box-shadow: 5px 5px 5px 3px #ffc0af;
 }
 /* about me */
 .about {
@@ -171,7 +171,7 @@ a:hover {
 }
 .about-img img {
   border-radius: 8px;
-  box-shadow: 3px 2px 5px 2px rgba(0, 0, 0, 0.2);
+  box-shadow: 3px 2px 5px 2px #ffc0af;
   height: 450px;
   width: 360px;
 }

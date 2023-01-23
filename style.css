@@ -243,18 +243,21 @@ a:hover {
   }
 }
 
-@media only screen and (min-width: 901px) and (max-width: 1074px) {
+@media only screen and (min-width: 901px) and (max-width: 1200px) {
   .nav-items {
-    margin-left: -50px;
+    margin: 0 0 0 20px;
+    width: 500px;
   }
-
+  .nav-bar a {
+    width: 200px;
+  }
   .intro {
     width: 50%;
-    padding: 160px 0 0 20px;
+    padding: 100px 70px 0 80px;
   }
   .title-img img {
-    height: 600px;
-    width: 640px;
+    height: 560px;
+    width: 600px;
   }
 }
 

@@ -364,7 +364,23 @@ a:hover {
     width: 55px;
     height: 55px;
   }
+
+  #project2 {
+    margin: 0;
+  }
+  #project3 {
+    margin: 0;
+  }
+
+  #project4 {
+    margin: 0;
+  }
+  .project {
+    height: 250px;
+    width: 300px;
+  }
 }
+
 @media (max-width: 574px) {
   .about-txt {
     padding: 50px 40px;

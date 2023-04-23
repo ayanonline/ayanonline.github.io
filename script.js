@@ -3,6 +3,13 @@ let bar2 = document.querySelector("#closeBar");
 let resNav = document.querySelector(".res-nav");
 let navBar = document.querySelector(".nav-bar");
 const title = document.querySelector("#ayan");
+const aboutNav = document.querySelector("#about-nav");
+const skillNav = document.querySelector("#skill-nav");
+const projectNav = document.querySelector("#project-nav");
+const aboutSection = document.querySelector(".about-section");
+const projectSection = document.querySelector(".project-section");
+const skillSection = document.querySelector(".skill-section");
+
 const my_name = " Ayan";
 let index = 1;
 bar.addEventListener("click", () => {
@@ -24,3 +31,17 @@ const typeWriter = () => {
 };
 
 typeWriter();
+
+// Scrolling
+aboutNav.addEventListener("click", function (e) {
+  e.preventDefault();
+  aboutSection.scrollIntoView({ behavior: "smooth" });
+});
+projectNav.addEventListener("click", (e) => {
+  e.preventDefault();
+  projectSection.scrollIntoView({ behavior: "smooth" });
+});
+skillNav.addEventListener("click", (e) => {
+  e.preventDefault();
+  skillSection.scrollIntoView({ behavior: "smooth" });
+});
